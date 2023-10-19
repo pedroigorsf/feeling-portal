@@ -14,12 +14,16 @@
                 
                 
                 <!-- Icon Divider-->
+                <!--
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                -->
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Como você está hoje?</p>
+                <p class="masthead-subheading font-weight-light mb-0">Como você está hoje?</p><p></p>
+                
             </div>
+            <button type="button" class="btn btn-outline-light">Estou me sentindo...</button>
         </header>
