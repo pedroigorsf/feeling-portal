@@ -8,6 +8,8 @@ class Home extends CI_Controller {
 		$this->load->view('templates/header');
 		$this->load->view('templates/top-nav');
 		$this->load->view('templates/header-body');
-		$this->load->view('templates/js');
+		$this->load->view('templates/footer');
 	}
+
+	
 }

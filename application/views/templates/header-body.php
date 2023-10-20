@@ -4,7 +4,7 @@
                 <!-- Masthead Avatar Image
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />-->
                 <!-- Masthead Heading-->
-                <h1 class="masthead-subheading text-lowercase mb-0">Estou me sentindo</h1>
+                <h1 class="masthead-subheading text-lowercase mb-0">Hoje eu tô</h1>
                 
                 
                 <h1 class="text-uppercase" id="typing">
@@ -22,8 +22,11 @@
                 </div>
                 -->
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Como você está hoje?</p><p></p>
+                <p class="masthead-subheading font-weight-light mb-0">Como tu tá?</p><p></p>
                 
             </div>
-            <button type="button" class="btn btn-outline-light">Estou me sentindo...</button>
+
+            <a href="<?= base_url();?>feeling/new">
+                <button type="button" class="btn btn-outline-light">Hmmm.....</button>
+            </a>
         </header>

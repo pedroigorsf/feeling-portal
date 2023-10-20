@@ -1,9 +1,19 @@
 // these phrases will repeat
 const phrases = [
-    "INCRÍVEL! 😀",
-    "SUPER MOTIVADO! 😁",
-    "MAIS OU MENOS 😐",
-    "REALIZADO! 😊"
+    "ARRETADO! 😋",
+    "COISADO! 😵",
+    "ESTRIBADO! 🤑",
+    "MARROMENO! 😑",
+    "FELIZ PRA CARAMBA! 😁",
+    "NA BAD! 😔",
+    "DE BOAS! 😎",
+    "TRANQUILHÃO! 🙂",
+    "EMPOLGADÃO! 🤯",
+    "NO PIQUE! 😉",
+    "TENSO DE MAIS! 😨",
+    "DE DAR NOJO! 😒",
+    "P DA VIDA! 😤",
+    "ZUERO! 🤪"
   ];
 
   const emoticons = [
