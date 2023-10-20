@@ -7,7 +7,7 @@ const phrases = [
     "FELIZ PRA CARAMBA! 😁",
     "NA BAD! 😔",
     "DE BOAS! 😎",
-    "TRANQUILHÃO! 🙂",
+    "TRANQUILÃO! 🙂",
     "EMPOLGADÃO! 🤯",
     "NO PIQUE! 😉",
     "TENSO DE MAIS! 😨",
