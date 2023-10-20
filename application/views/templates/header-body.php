@@ -1,10 +1,10 @@
  <!-- Masthead-->
- <header class="masthead bg-primary text-white text-center">
+ <main class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />-->
                 <!-- Masthead Heading-->
-                <h1 class="masthead-subheading text-lowercase mb-0">Hoje eu tô</h1>
+                <h1 class="masthead-subheading text-lowercase mb-0">Tô que tô</h1>
                 
                 
                 <h1 class="text-uppercase" id="typing">
@@ -27,6 +27,6 @@
             </div>
 
             <a href="<?= base_url();?>feeling/new">
-                <button type="button" class="btn btn-outline-light">Hmmm.....</button>
+                <button type="button" class="btn btn-outline-light">Hmmm..... 🤔</button>
             </a>
-        </header>
+</main>

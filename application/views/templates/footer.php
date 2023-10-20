@@ -14,7 +14,7 @@
                         
         <a class="btn btn-outline-light btn-social mx-1" href="https://api.whatsapp.com/send?phone=+5585992241434&text=Ol%C3%A1%21" target="_blank"><i class="fab fa-fw fa-whatsapp"></i></a>
         </small><br>
-                developed by @pedroigorsf
+                coisado por @pedroigorsf
         </div>
 
         
