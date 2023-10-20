@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Feeling extends CI_Controller {
+class Feeling extends CI_Controller
+{
 
 	public function index()
 	{
@@ -11,13 +12,36 @@ class Feeling extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function new(){
+	public function new()
+	{
 
 		$feeling = $_POST;
-        $feeling["fk_user"] = '1';
-		
+		$feeling["fk_user"] = '1';
+		$feeling["last_activity"] = date("Y-m-d");
+
 		$this->load->model("Galera_model");
 		$this->Galera_model->new($feeling);
+	}
+
+	public function edit($id)
+	{
+
+		$this->load->model("Galera_model");
+		$data['pessoa'] = $this->Galera_model->show($id);
+
+		$this->load->view('templates/header');
+		$this->load->view('templates/top-nav');
+		$this->load->view('pages/feeling-form', $data);
+		$this->load->view('templates/footer');
+	}
+
+	public function update($id)
+	{
+		$this->load->model('Galera_model');
+		$pessoa = $_POST;
+		$this->Galera_model->update($id, $pessoa);
+		redirect("/");
+
 	}
 
 

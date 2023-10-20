@@ -26,7 +26,7 @@
                 
             </div>
 
-            <a href="<?= base_url();?>feeling/new">
+            <a href="<?= base_url();?>feeling">
                 <button type="button" class="btn btn-outline-light">Hmmm..... 🤔</button>
             </a>
 </main>

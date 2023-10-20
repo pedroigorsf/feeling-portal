@@ -12,4 +12,14 @@ class Galera_model extends CI_Model{
         $this->db->insert("tb_feeling", $feeling);
 
     }
+
+    public function show($id){
+
+        return $this->db->get_where("tb_feeling", array("id" => $id))->row_array();
+    }
+
+    public function update($id, $pessoa){
+        $this->db->where("id", $id);
+        return $this->db->update("tb_feeling",$pessoa);
+    }
 }
