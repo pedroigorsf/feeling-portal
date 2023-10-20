@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller
         $this->load->view('templates/header', $data);
         $this->load->view('templates/top-nav');
         //$this->load->view('templates/header-body');
-        $this->load->view('pages/feeling');
+        $this->load->view('pages/dashboard');
         $this->load->view('templates/footer');
     }
 

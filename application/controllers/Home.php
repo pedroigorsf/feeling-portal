@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 		$this->load->view('templates/header');
 		$this->load->view('templates/top-nav');
 		$this->load->view('templates/header-body');
-		$this->load->view('pages/feeling', $data);
+		$this->load->view('pages/dashboard', $data);
 		$this->load->view('templates/footer');
 
 	}
