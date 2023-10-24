@@ -4,6 +4,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Feeling extends CI_Controller
 {
 
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model("Galera_model");
+	}
+
 	public function index()
 	{
 		$this->load->view('templates/header');
@@ -19,14 +25,14 @@ class Feeling extends CI_Controller
 		$feeling["fk_user"] = '1';
 		$feeling["last_activity"] = date("Y-m-d");
 
-		$this->load->model("Galera_model");
 		$this->Galera_model->new($feeling);
+		redirect("/");
 	}
 
 	public function edit($id)
 	{
 
-		$this->load->model("Galera_model");
+
 		$data['pessoa'] = $this->Galera_model->show($id);
 
 		$this->load->view('templates/header');
@@ -41,7 +47,13 @@ class Feeling extends CI_Controller
 		$pessoa = $_POST;
 		$this->Galera_model->update($id, $pessoa);
 		redirect("/");
+	}
 
+	public function delete($id)
+	{
+		$this->load->model('Galera_model');
+		$this->Galera_model->destroy($id);
+		redirect("/");
 	}
 
 
